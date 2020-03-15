@@ -1,0 +1,43 @@
+baseurl = "https://imkate.dev/"
+title = "Kate Belinskaya"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+
+
+[params]
+    author = "Kate Belinskaya"
+    avatar = "avatar.jpg"
+    favicon = "favicon.ico"
+    description = """
+        I write in Swift at <a href="https://apps.apple.com/us/app/capital-one-mobile/id407558537">Capital One</a> and tinker with things at <a href="https://ameba.co">Ameba Labs</a>.
+    """
+    publicationYear = "2020"
+    
+# Make sure setting a following option for search bar to work
+[outputs]
+    section = ["JSON", "HTML"]
+    taxonomy = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "linkedin"
+    # name = "Linkedin"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/belinskaya"
+    weight = 20
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/Belinskaya"
+    weight = 30
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:kate.belinskaya@gmail.com"
+    weight = 40
